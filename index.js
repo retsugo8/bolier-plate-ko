@@ -3,7 +3,7 @@ const app = express() //앱을만듬
 const port = 4000 //포트설정해줌
 const bodyParser = require('body-parser');
 const config = require("./config/key");
-
+ 
 //application/x-www-form-urlencoded 라는 데이터를 분석해서 가져올수있게 해주는것
 app.use(bodyParser.urlencoded({ extended: true,}));
 
